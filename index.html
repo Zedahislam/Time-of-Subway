@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>teamd</title> 
+     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">/
+    <script type="text/javascript" src="time.JS"></script>
+    
+    </head>
+    
+    <body>
+        <div id="title">
+            <h1>Team D</h1>
+            </div>
+        <div id="options">
+            <form>
+                 <p>
+                 <label>Choose Destination</label>            
+                      <input type = "radio"
+                            name = "radSize"
+                            id = "sizeSmall"
+                            value = "small"
+                            checked = "checked" />
+                 <label for = "sizeSmall">Work</label>
+                         <input type = "radio"
+                            name = "radSize"
+                            id = "sizeMed"
+                            value = "medium" />
+                 <label for = "sizeMed">School</label>
+                      <input type = "radio"
+                            name = "radSize"
+                            id = "sizeLarge"
+                            value = "large" />
+                 <label for = "sizeLarge">Home</label>
+                 </p>
+  
+                 <p> 
+                <label>How many minutes does it to get to your destination (0-60)
+                    <input type="number" value="30" min="0" max="120" name="velocity">
+                </label>
+                </p>
+                  <button type="button" >START</button>
+            </form>
+        </div>
+    </body>
+</html>
