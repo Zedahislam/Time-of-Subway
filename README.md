@@ -6,15 +6,15 @@ We want to help people realize the issues facing about the subway users and expo
 #### while building project question
 
 1.What this project does? 
-Answer: This project helps and teach us more about NYC subway system also represent how the people feel when they run out late. 
+Answer: This project helped us to learn about NYC subway system. It shows how New Yorkers feels about being late because of train delays.Also shows how great is our NYC system.
 2.How we built it ?
-Answer:First, we took ideas from groupmates after that, as a group we came up with a specific topic Then, we had differnt jobs to do like group one was doing designing,other one was working one product. At the end, we talked with our groupmates like what's good or bad. and yea this is how we built our Time of Subway. We also worked on user stories below.
+Answer:First, we took ideas from our groupmates after that, as a group we came up with a specific topic Then, we had differnt jobs to do so for that we had two groups of people, group one was doing designing, group twowas working products. At the end, we decided what's good in designing or what's bad. and yea this is how we built our Time of Subway. We also worked on user stories below.
 3.Challenges we ran into ?
 Answer: Some chellenges we had is choosing the design for each page, choosing the theme and choosing differnt picture. 
 4.What we learned ?
 Answer:From this "Time of Subway" project we've learned how to design a background. Different codes for every single part of site. We got some errors, it was when we missed quotation marks.  
 5.What is next for this project ?
-Answer: We 
+Answer:Next, We will going to have more complex questions
 
 
 
