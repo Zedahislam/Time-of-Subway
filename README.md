@@ -1,10 +1,10 @@
 # Time of Subway
 
-## Description
+### Description
 We want to help people realize the issues facing about the subway users and expose knowledge that may not be readily available.
 
-## Product
-### User Stories
+### Product
+##### User Stories
 
 - When an user starts, zhe will be able to to select a destination between "work", "home", and "school".
 - When an user starts, zhe will able to select a time limit between "1" and "60".
@@ -15,7 +15,7 @@ We want to help people realize the issues facing about the subway users and expo
 - When an user answers all the questions without going over the time limit, zhe wins.
 - When the elapsed time is over the time limit, the user loses.
 
-### Questions
+##### Questions
 - Would you get fired if you are late?
 - Who is the president of the USA?
 - Someone is confused and lost. Will you stop to help him?
