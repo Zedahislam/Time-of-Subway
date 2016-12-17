@@ -2,14 +2,17 @@
 <html>
     <head>
      <title>teamd</title> 
+     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
      <link rel="stylesheet" href="styles.css">
-     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">/
+     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     </head>
     <body>
+        <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
         <div id="title">
             <h1>Team D</h1>
             </div>
         <div id="options">
+            <p>The NYC Subway system is horrible. Let's simulate just how awful it can be and how much of an impact it can have on your life.</p>
             <form>
                  <p>
                  <label>Choose Destination</label>            
@@ -32,12 +35,42 @@
                  </p>
   
                  <p> 
-                <label>How many minutes does it to get to your destination (0-60)
+                <label>How many minutes does it takes to get to your destination (0-60)
                     <input type="number" value="30" min="0" max="120" name="velocity">
                 </label>
                 </p>
-                  <button type="button" onclick="alert('Hello World!')">START</button>
+                  <button id="start" class="waves-effect waves-light btn'" type="button" onclick="alert('Hello World!')">START</button>
             </form>
         </div>
+        </div>
+        <div id="question" class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+            <div id="choices">
+                 <button id="option_1">Train 1</button>
+                 <button id="option_2">Train 2</button>
+            </div>
+            <div id="counter">
+                <p>Time Left</p>
+                <p class="time">30</p>
+            </div>
+            <div class="container">
+                <div id="quiz">
+                    
+                </div>
+                <div id="img_1" class="image">
+                    <img src="http://www.mta.info/sites/default/files/styles/rotator_horizontal/public/news%20images/noletternumbertrain.jpg?itok=Ab0BsDHj">
+                </div>
+                <div id="img_2" class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/MTA_NYC_Subway_J_train_leaving_Lorimer_St..JPG">
+                </div>
+                <div id="stops">
+                    <p>
+                    <progress max="10" value="2"></progress>
+                    </p>
+                </div>
+        </div>
+        </div>
+               
+        </div>
     </body>
+    
 </html>
