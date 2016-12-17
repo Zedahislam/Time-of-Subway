@@ -1,0 +1,30 @@
+
+h1{
+    color:blue;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Anton', sans-serif;
+}
+#start{
+    background-color: #0049bf;
+    color:white;
+}
+#img_1{
+    float:left;
+    max-width: 250px;
+}
+#img_2{
+    float:right;
+    max-width: 250px;
+}
+img{
+    max-width: 250px;
+}
+.container{
+    max-width: 500px;
+}
+#stops{
+    display:block;
+    float:left;
+    width:400px;
+}
