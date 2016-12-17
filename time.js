@@ -1,4 +1,5 @@
 /* global $ */
+$(document).ready(function() {
 var current=0;
 
 function nextQuestion() {
@@ -14,4 +15,6 @@ function nextQuestion() {
 
 $('.selection').click(function() {
     nextQuestion();
+});
+    
 });
